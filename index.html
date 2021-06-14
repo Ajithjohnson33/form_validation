@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1> HTML Page</h1>
+</head>
+<body>
+
+	<table>
+		<tr>
+			<td>
+				Name:
+			</td>
+
+			<td>
+				<input type="text" id="name" placeholder=name name="name"><br>
+			</td>
+		</tr>
+<tr>
+<td>
+				Email:
+			</td>
+
+			<td>
+				<input type="email" id="email" placeholder=email name="email">
+			</td>
+		</tr>
+
+        <tr>
+			<td>
+				Age:
+			</td>
+
+			<td>
+                 <input type="text"  id="age" name="age"  placeholder=age size="3" maxlength="3" />
+				
+			</td>
+		</tr>
+
+        <tr>
+			<td>
+				Age Category:
+			</td>
+
+			<td>
+				<select id="age-grp" name="ages">
+                    <option value="0-12">0-12</option>
+                    <option value="0-12">0-12</option>
+                     <option value="12-19">12-19</option>
+                    
+                  </select>
+			</td>
+		</tr>
+
+        <tr>
+			<td>
+				Gender:
+			</td>
+
+			<td>
+			
+                <input type="radio"/ checked name="Gender"> Male<br />
+                <input type="radio"/ name="Gender"> Female<br />
+			</td>
+		</tr>
+
+        <tr>
+			<td>
+				Address:
+			</td>
+
+			<td>
+				<input type=”text”  placeholder=address name="address">
+			</td>
+		</tr>
+
+        <tr>
+			<td>
+				Company Name:
+			</td>
+
+			<td>
+				<input type=”text” id="cmp" placeholder=name name="company">
+			</td>
+		</tr>
+
+        <tr>
+			<td>
+				Image Upload option:
+			</td>
+
+			<td>
+				<input type="file" id="img" name="img" accept="image/*">
+               
+			</td>
+		</tr>
+
+        <tr>
+            <td>
+              <input type="submit" onclick="validate()">
+            </td>
+        </tr>
+
+        
+
+	</table>
+
+
+<script src="validation1.js">
+</script>
+
+</body>
+</html>
